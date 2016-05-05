@@ -1,0 +1,53 @@
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+
+  background: #fff;
+
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1em;
+  color: #d5dee0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition:all .2s;  
+  -moz-transition:all .2s;  
+  -o-transition:all .2s;  
+  transition:all .2s;  
+}
+
+a:hover {
+  opacity: .7;
+  -webkit-transition:all .2s;  
+  -moz-transition:all .2s;  
+  -o-transition:all .2s;  
+  transition:all .2s; 
+}
+
+.name { color: #246da7; } 
+.shell { color: #1c4094; }
+.signals { color: #3f3583; }
+.stanford { color: #8c1515; }
+.florida { color: #dd661e; }
+.jets { color: #988a77; }
+.auto_parts { color: #ffc837; }
+.teaching {color: #357633;}
+
+.container {
+  max-width: 990px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+}
